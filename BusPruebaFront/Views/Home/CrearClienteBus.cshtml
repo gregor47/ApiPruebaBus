@@ -1,0 +1,21 @@
+﻿
+@model string
+@{
+
+    ViewData["Title"] = "Crear Clientes";
+}
+<h1>CREAR CLIENTES</h1>
+
+<form href="@Url.Action("CrearClienteBus","Home")" method="post">
+    <p>Nombre</p>
+    <input type="text" name="nombre" id="nombre" />
+    <p>Identificacion</p>
+    <input type="text" name="identificacion" id="identificacion" />
+    @*@if (!String.IsNullOrEmpty(Model))
+        {
+            <h1>Respuesta del servicio</h1>
+            <h2>@Model</h2>
+        }*@
+</form>
+
+

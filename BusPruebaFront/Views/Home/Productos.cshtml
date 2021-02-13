@@ -1,0 +1,36 @@
+﻿@model List<BusPruebaFront.Models.Productos>
+@{
+
+    ViewData["Title"] = "Productos";
+}
+
+<h1>LISTA PRODUCTOS</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre Producto</th>
+            <th scope="col">Numero Producto</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Fecha Apertura</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.NombreProducto</td>
+                <td>@item.NumProducto</td>
+                @if (item.Estado)
+                {
+                    <td>ACTIVO</td>
+                }
+                else
+                {
+                    <td>INACTIVO</td>
+                }
+                <td> @item.FechaApertura.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>

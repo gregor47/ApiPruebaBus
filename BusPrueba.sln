@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusPrueba", "BusPrueba\BusPrueba.csproj", "{BABA15D1-F4FC-435D-B783-4A5CCCAFABB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusPruebaFront", "BusPruebaFront\BusPruebaFront.csproj", "{B47B8C90-1A1C-4479-8B01-82470EAF16AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BABA15D1-F4FC-435D-B783-4A5CCCAFABB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BABA15D1-F4FC-435D-B783-4A5CCCAFABB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BABA15D1-F4FC-435D-B783-4A5CCCAFABB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BABA15D1-F4FC-435D-B783-4A5CCCAFABB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B47B8C90-1A1C-4479-8B01-82470EAF16AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B47B8C90-1A1C-4479-8B01-82470EAF16AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B47B8C90-1A1C-4479-8B01-82470EAF16AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B47B8C90-1A1C-4479-8B01-82470EAF16AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9538AFF-8373-417E-B037-C57789C27373}
+	EndGlobalSection
+EndGlobal
